@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Introduction to Object..</title>
+    <script type="text/javascript">
+    function fn2()
+    {
+        var select=document.getElementById("selectbox");
+        alert(select.options[select.selectedIndex].value);
+    }
+    </script>
+</head>
+<body>
+    <select id="selectbox" placeholder="choose">
+       <option value="google">Google</option> 
+       <option value="facebook">Facebook</option> 
+       <option value="youtube">Youtube</option> 
+       <option value="Toyata">Toyota</option> 
+    </select>
+    <br>
+    <button onclick="fn2"> Click me</button>
+
+</body>
+
+</html>

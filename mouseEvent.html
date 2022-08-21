@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Mouse on mouse over Event...</title>
+    <script type="text/javascript">
+    function setNewImage()
+    {
+        document.getElementsById("img2").src="images/submit.JPG";
+    }
+    function setOldImage()
+    {
+        document.getElementsById("img2").src="images/bag.JPG";
+        alert();
+    }
+
+    
+    </script>
+</head>
+<body>
+    <img id="img2" onmouseover="setNewImage()" 
+    onmouseout="setOldImage()" src="images/bag.JPG" width="300px"/>
+</body>   
+</html>

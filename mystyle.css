@@ -1,0 +1,42 @@
+#p2
+{
+  color:red;  
+}
+h
+{
+    text-decoration: underline;
+}
+#header
+{
+  width: 300px;
+  height: 800px;
+  background-color: green;
+}
+#header #headbar
+{
+  position: fixed;
+  top: 60px;
+  width: 300px;
+  height: 90px;
+  background-color: red;
+}
+#header #head1
+{
+  top: 20px;
+  color: black;
+  position: relative;
+}
+#d1
+{
+  position:absolute;
+  width: 200px;
+  height: 200px;
+  background-color: silver;
+}
+
+#header #headbar h1
+{
+  position: fixed;
+  left: 90px;
+  top: 50px;
+}

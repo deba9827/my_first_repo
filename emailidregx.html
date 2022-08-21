@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Introduction to Object..</title>
+    <script type="text/javascript">
+    function validate()
+    { 
+        var text= document.getElementById("text2").value;
+        var regx=/^([a-z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})$/;
+        if(regx.test(text))
+        {
+            document.getElementById("lbltext").innerHTML="valid";
+            document.getElementById("lbltext").style.visibility="visible";
+            document.getElementById("lbltext").style.color="green";
+        }
+        else
+        {
+            document.getElementById("lbltext").innerHTML="Invalid";
+            document.getElementById("lbltext").style.visibility="visible";
+            document.getElementById("lbltext").style.color="red";
+        }
+    }
+
+    </script>
+</head>
+<body>
+    <form>
+    <input id="text2" placeholder="Enter Your Email-Id" type="text"/><br><br>
+    <label id="lbltext" style="color: red;visibility: hidden">Invalid</label>
+    <br></br>
+    <button onclick="validate()" type="button">Submit</button>
+    </form>
+</body>
+
+</html>
